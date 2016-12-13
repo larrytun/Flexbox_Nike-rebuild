@@ -1,0 +1,171 @@
+
+@import "_variables.scss";
+@import "_typography.scss";
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-stack;
+}
+
+header {
+    height: 108px;
+    border-bottom: 1px solid $grey;
+    min-width: 770px;
+}
+
+.nav1 {
+  height: 38px;
+  border-bottom: 1px solid $grey;
+  color: darken($grey, 30%);
+  font-size: 12px;
+}
+
+.nav2 {
+  height: 80px;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: $black;
+  color: $white;
+  height: 300px;
+  margin: 0;
+}
+
+.hero {
+  background-image: url("../img/nike-hero.jpg");
+  width: 100%;
+  min-width: 770px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 0;
+  padding: 37.5% 0 0 0;
+  @media #{$small-screen} {
+    height: 289px;
+    padding: 0;  }
+}
+
+.video {
+  width: 100vw;
+  height: 50vh;
+}
+
+.nav1 ul, .nav2 ul {
+  margin-top: 0px;
+  height: 38px;
+  display: flex;
+  list-style: none;
+}
+
+.left-foot-nav ul {
+  position: absolute;
+  list-style: none;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.left-foot-nav li {
+  padding-top: 20px;
+}
+
+.left-nav-links li {
+  padding: 10px 23px;
+  border-right: 1px solid $grey;
+  display: inline-block;
+}
+
+.middle-foot-nav ul {
+  position: absolute;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 180px;
+  font-size: 12px;
+}
+
+.middle-foot-nav li {
+  padding-top: 20px;
+}
+
+.right-foot-nav ul {
+  position: absolute;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 350px;
+  font-size: 12px;
+}
+
+.right-foot-nav li {
+  padding-top: 20px;
+}
+
+.footer-content {
+  max-width: 945px;
+  margin: auto;
+  line-height: .8;
+}
+
+.right-nav-links li {
+  padding: 10px 7px;
+  display: inline-block;
+}
+
+.nav2-links li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.li3 {
+  margin-top: 4px;
+}
+
+.li1 {
+  margin-left: -25px;
+  margin-top: 3px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav2-links {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.grey-links {
+    color: darken($grey, 30%);
+    font-size: 11px;
+}
+
+#flag {
+  margin-top: -5px;
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+#cart {
+  margin-top: -7px;
+}
+
+#help {
+  margin-left: 10px;
+}
+
+#swoosh {
+  height: 37.5px;
+  width: 90px;
+  position: relative;
+  top: 12px;
+  right: 25px;
+}
