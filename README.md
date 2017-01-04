@@ -1,8 +1,8 @@
 # _Nike Rebuild_
 
-#### _Fourth CSS solo project for Epicodus, 12.16.2016_
+#### _Css Project for Epicodus, 12.13.2016_
 
-#### By _**Larry Dean Tunseth II**_
+#### By _**Larry Dean Tunseth II and Dean Scelza**_
 
 ## Description
 
@@ -35,4 +35,4 @@ _Git_
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2016 **_Larry Tunseth & Epicodus_**
+Copyright (c) 2016 **_Larry Tunseth, Dean Scelza, & Epicodus_**
